@@ -17,7 +17,6 @@ bool GameLayer::init()
 	// Ìí¼ÓÒ»¸öAI
 	m_pGameWorld = new GameWorld;
 	GlobalVar::instance().SetGameWorld(m_pGameWorld);
-	GlobalVar::instance().GetPathfinder()->CreateGraphGrid(800, 600, 10, 10);
     
     return true;
 }

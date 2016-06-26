@@ -28,6 +28,12 @@ public:
 	virtual void OnInitialUpdate();
 	afx_msg void OnDestroy();
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
+
+protected:
+	void LoadImage();
+
+protected:
+	LPVOID		m_lpBuf;
 };
 
 
